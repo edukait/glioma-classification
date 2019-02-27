@@ -8,7 +8,7 @@ The segmentation code implements a convolutional neural network with a U-Net arc
   <img src="/misc/patch_extraction.jpg" width="300">
 </p>
 
-The Dice scores, which were the metric used for quantifying the accuracy of the CNN, ranged anywhere from 0.7 to 0.85. The following GIFs are the MRI images of the ground truth and the CNN predictions, respectively, taken from three different angles (sagittal, longitudinal, and coronal).
+The Dice scores, which were the metric used for quantifying the accuracy of the CNN, ranged anywhere from 0.7 to 0.85.
 
 ## Classification
 The second part of the project uses both a support vector machine and deep neural network in order to compare the efficiency of both models relative to each other. The features of the tumors segmented with the segmentation code will be extracted using the feature extractor from the open-sourced [PyRadiomics](https://github.com/Radiomics/pyradiomics) package. Based on past readings of papers, the following features were extracted for further analysis:
